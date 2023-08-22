@@ -1,3 +1,8 @@
+# IMDB Database (too large)
+im.db
+data/im.db
+data/im.db/im.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
