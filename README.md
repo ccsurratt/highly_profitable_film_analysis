@@ -38,7 +38,7 @@ Additionally, because the company is interested in movies that currently perform
 
 ## Methods
 
-The process by which I conducted this analysis is outlined below. For a more complete understanding of the methods used, refer to the [Jupyter Notebook](./notebook.ipynb)
+The process by which I conducted this analysis is outlined below. For a more complete understanding of the methods used, refer to the [Jupyter Notebook](./notebook.ipynb).
 
 * Calculated percent return for all movies using the formula below
 
