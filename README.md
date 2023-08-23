@@ -63,9 +63,9 @@ However, this visualization is somewhat difficult to interpret, since the two ex
 In the visualization below, I have dropped these two extreme values in order to better visualize the relationship for the rest of the data. _**These values will not be dropped from the dataset used for analysis - they are simply being temporariily ignored in order to improve the visualization.**_
 ![img](./images/budget_vs_return_no_extremes.png)
 
-Now, we can more clearly see the relationship between production budget and percent return. This relationship is still clearly nonlinear, but it is more obvious that the films with the highest percent returns have budgets that are less than \\$100 million.
+Now, we can more clearly see the relationship between production budget and percent return. This relationship is still clearly nonlinear, but it is more obvious that the films with the highest percent returns have budgets that are less than \$100 million.
 
-On average, the top 30 movies have a production budget of \\$5,360,000, which is much lower than the average budget for all movies (approximately \\$44,000,000). 
+On average, the top 30 movies have a production budget of \$5,360,000, which is much lower than the average budget for all movies (approximately \$44,000,000). 
 
 In order to determine whether this difference is statistically significant, I conducted a t-test at with a standard alpha level of 0.05. The results led me to **reject the null hypothesis** at the standard alpha level of 0.05: it is extremely unlikely that highly profitable movies have the same or higher production budgets than all movies. Highly profitable movies have lower production budgets than all movies.
 
@@ -73,7 +73,7 @@ The graph below illustrates the distribution of all films and highly profitable 
 ![img](./images/production_budget_distribution_comparison.png)
 
 In order to recommend a specific budget for the company, I computed a 95% confidence interval for the mean of the subset. This interval led me to my first recommendation:
-**I recommend that the company produce films with budget between \\$3.6 million and \\$7.1 million.** We can be 95\% confident that the true average production budget for highly successful films falls within this range.
+**I recommend that the company produce films with budget between \$3.6 million and \$7.1 million.** We can be 95\% confident that the true average production budget for highly successful films falls within this range.
 
 
 ### Genre
@@ -127,7 +127,7 @@ While there are many ways to determine what makes a movie "successful" (critical
 This analysis led me to three key findings, outlined below. It is important to once again iterate that we do not have evidence that any of these features _cause_ movies to generate higher percent returns. However, we do have evidence that these features are correlated with higher percent returns.
 
 
-* **On average, highly successful movies have lower production budgets than all movies.**  I recommend that the company produce films with budget between \\$3.6 million and \\$7.1 million. We can be 95% confident that the true average production budget for highly successful films falls within this range, despite it being significantly smaller than the average production budget for all films (approximately \\$44 million).
+* **On average, highly successful movies have lower production budgets than all movies.**  I recommend that the company produce films with budget between \$3.6 million and \$7.1 million. We can be 95% confident that the true average production budget for highly successful films falls within this range, despite it being significantly smaller than the average production budget for all films (approximately \$44 million).
 
 
 * **The majority of highly successful movies are classified as Horror, Thriller, Drama, and/or Mystery movies.** The difference in breakdown of movies by genre for the subset compared to all movies is statistically significant: that is, it is unlikely that there are more movies in these categories due to random chance. Therefore, I recommend that the company focus their production efforts on movies in these categories.
