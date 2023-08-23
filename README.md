@@ -42,9 +42,7 @@ The process by which I conducted this analysis is outlined below. For a more com
 
 * Calculated percent return for all movies using the formula below
 
-\begin{align}
-\text{Percent Return} = \frac{\text{total gross revenue – production budget}}{\text{production budget}}*100
-\end{align}
+![img](./images/formula.png)
 
 * Created a subset of the 30 movies with the highest percent returns
 
